@@ -10,7 +10,7 @@ def hello_world():
 def about():
     return render_template('./about.html')
 
-@app.route('/blog')
+@app.route('/favicon.ico')
 def blog():
     return 'These are my thoughts on blogs'
 
