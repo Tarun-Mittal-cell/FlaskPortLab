@@ -10,7 +10,8 @@ def my_home():
 def about():
     return render_template('about.html')
 
+@app.route('/works.html')
+def work():
+    return render_template('works.html')
 
-@app.route('/blog/2020/dogs')
-def blog2():
-    return 'this is my dog'
+
