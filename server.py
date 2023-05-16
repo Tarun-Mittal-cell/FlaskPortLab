@@ -4,4 +4,8 @@ print(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello, Tar!'
+    return 'Hello!!!!!'
+
+@app.route('/blog')
+def blog():
+    return 'These are my thoughts on blogs'
