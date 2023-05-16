@@ -8,11 +8,8 @@ def hello_world():
 
 @app.route('/about.html')
 def about():
-    return render_template('./about.html')
+    return render_template('about.html')
 
-@app.route('/favicon.ico')
-def blog():
-    return 'These are my thoughts on blogs'
 
 @app.route('/blog/2020/dogs')
 def blog2():
